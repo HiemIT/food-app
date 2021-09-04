@@ -4,8 +4,8 @@ import Thumb from "./../../assets/svgs/Login/thumb.svg";
 import "./styles/index.scss";
 /* icon to material-icon */
 
-import MailOutlineIcon from "@material-ui/icons/MailOutline";
-import LockIcon from "@material-ui/icons/Lock";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import LockIcon from "@mui/icons-material/Lock";
 import Google from "./../../assets/svgs/Login/google.svg";
 import Facebook from "./../../assets/svgs/Login/facebook.svg";
 type Props = {};
