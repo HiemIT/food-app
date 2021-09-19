@@ -15,6 +15,10 @@ html {
   line-height: 1.2;
 }
 
+body {
+  box-sizing: border-box;
+  overflow: initial;
+}
 
 a {
   text-decoration: none;

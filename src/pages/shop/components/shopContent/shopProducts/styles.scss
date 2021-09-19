@@ -1,0 +1,9 @@
+@import "../../../../../assets/styles/colors";
+@import "../../../../../assets/styles/mixins";
+
+.shop-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-gap: 15px;
+  padding: 22px 0 20px 20px;
+}

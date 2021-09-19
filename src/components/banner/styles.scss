@@ -1,0 +1,54 @@
+@import "../../assets/styles/colors";
+@import "../../assets/styles/mixins";
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 100%;
+  height: 38.5rem;
+  margin-bottom: 80px;
+
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &__title {
+    font-size: 3.6rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: $primary-white-color;
+  }
+  &__paths {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+  }
+
+  &__path {
+    font-size: 1.4rem;
+    margin: 5px;
+    padding: 7px;
+    text-decoration: capitalize;
+
+    transition: 0.2s ease-out;
+
+    color: $primary-white-color;
+  }
+
+  @media (hover: hover) {
+    &__path:hover {
+      color: $primary-red-color;
+
+      cursor: pointer;
+    }
+  }
+  &__path.active {
+    color: $primary-red-color;
+  }
+  svg {
+    fill: $primary-white-color;
+  }
+}

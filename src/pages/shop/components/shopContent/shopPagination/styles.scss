@@ -1,0 +1,27 @@
+@import "../../../../../assets/styles/colors";
+@import "../../../../../assets/styles/mixins";
+
+.MuiPagination-root {
+  text-align: center;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .MuiPagination-ul {
+    flex-wrap: nowrap;
+    li {
+      transition: all 0.2s ease;
+
+      .Mui-selected {
+        background-color: $primary-red-color;
+        color: $primary-white-color;
+        &:hover {
+          background-color: #ff514e;
+        }
+      }
+      > button {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
